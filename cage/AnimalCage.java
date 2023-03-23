@@ -9,9 +9,9 @@ public interface AnimalCage<T extends Animals> {
     
     int addAnimal(T t);
 
-    int giveFood(int foodWeight);
+    boolean giveFood(int foodWeight);
 
-    int cleanGage();
+    int cleanCage(boolean clean);
 
     T takeOfAnimal();
 
